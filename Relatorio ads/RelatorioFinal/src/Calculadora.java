@@ -31,6 +31,14 @@ public class Calculadora {
         return (double) Math.sqrt(numero);
     }
 
+    public static double piso (double numero) {
+       return (double) Math.floor(numero);
+    }
+
+    public static double teto (double numero) {
+       return (double) Math.ceil(numero);
+    }
+
 
     /* Falta implementar: divisão, piso e teto */
 
