@@ -2,10 +2,20 @@ import java.lang.Math;
 
 public class Calculadora {
 
-    /* Por favor declarar aqui as funções restantes, para cada integrante duas funções como pedido */
 
+ /* declaração abaixo das funções: soma, subtração e multiplicação - Juliane */
 
+    public static double soma (double numero1, double numero2) {
+       return numero1 + numero2;
+    }
 
+    public static double subtracao (double numero1, double numero2) {
+       return numero1 - numero2;
+    }
+
+    public static double multiplicação (double numero1, double numero2) {
+       return numero1 * numero2;
+    }
 
     /* declaração abaixo das minhas duas funções: exponencial e raíz quadrada -that */
 
@@ -18,6 +28,6 @@ public class Calculadora {
     }
 
 
-    /* Falta implementar: soma, subtração, multiplicação, divisão, piso e teto */
+    /* Falta implementar: divisão, piso e teto */
 
 }
