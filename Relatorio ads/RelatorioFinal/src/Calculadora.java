@@ -17,7 +17,11 @@ public class Calculadora {
        return numero1 * numero2;
     }
 
-    /* declaração abaixo das minhas duas funções: exponencial e raíz quadrada -that */
+    public static double divisão (double numero1, double numero2) {
+       return numero1 / numero2;
+    }
+
+    /* declaração abaixo das minhas duas funções: ex,ponencial e raíz quadrada -that */
 
     public static int exponencial (int base, int expoente) {
         return (int) Math.pow(base, expoente);
