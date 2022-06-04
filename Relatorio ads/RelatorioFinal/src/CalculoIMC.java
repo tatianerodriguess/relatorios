@@ -18,6 +18,8 @@ public class CalculoIMC {
     
             System.out.println("|Seu IMC é: " + imc + "               |");
         System.out.println("_____________________________________________");
-        }
-        
+
+         input.close();
+
+        }   
 }
