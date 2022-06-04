@@ -19,8 +19,8 @@ public class Calculadora {
        return numero1 / numero2;
     }
 
-    public int exponencial (int base, int expoente) {
-        return (int) Math.pow(base, expoente);
+    public Double exponencial (Double base, Double expoente) {
+        return (Double) Math.pow(base, expoente);
     }
 
     public double raizquadrada (double numero) {
