@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fatorial {
+public class fatorial {
     public static void main(String[] args) {
 
         Calculadora calcfatorial = new Calculadora();
