@@ -6,7 +6,6 @@ public class Conversor {
 
         Calculadora calcConversor = new Calculadora();
         
-        Scanner input = new Scanner(System.in);
         System.out.println("Digite o número em Polegadas que deseja converter para Centímetros: ");
         double valor = input.nextDouble();
         valor = calcConversor.multiplicação(valor, 2.54);
