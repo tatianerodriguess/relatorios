@@ -20,6 +20,7 @@ public class fatorial {
                 valor--;
             }
             System.out.println("O fatorial de " + x + " é: " + fat);
+            input.close();
         }
     }
 }
